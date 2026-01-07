@@ -1,3 +1,4 @@
+import os
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
@@ -150,4 +151,5 @@ if selected == 'Heart Disease Prediction':
             heart_diagnosis = 'The person does not have any heart disease'
 
     st.success(heart_diagnosis)
+
 
